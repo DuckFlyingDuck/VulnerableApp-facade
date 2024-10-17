@@ -12,7 +12,7 @@ Examples:
 git commit -m "some text +semver:major"
 git commit -m "+semver:minor some text"
 git commit -m "+semver:patch some text"
-```
+``` 
 By default, if the version is not provided in the commit message, then patch is incremented.
 Examples of version change considering the current version is 1.10.0:
 1. For patch release, the newer version will be 1.10.1
